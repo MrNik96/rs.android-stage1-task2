@@ -10,6 +10,6 @@ class Fibonacci {
             secondFib += firstFib
             firstFib = secondFib - firstFib
         }
-        return intArrayOf(firstFib,secondFib,1)
+        return intArrayOf(firstFib,secondFib,0)
     }
 }
